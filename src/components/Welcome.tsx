@@ -23,7 +23,7 @@ export function Welcome(): React.ReactNode {
             Learn more
           </a>
           <a
-            href='https://github.com/Kurocado-Studio/styleguide-react-template'
+            href='https://github.com/Kurocado-Studio/product-starter-kit'
             className='text-sm/6 font-semibold text-gray-900'
           >
             View on GitHub<span aria-hidden='true'>→</span>

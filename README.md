@@ -1,6 +1,6 @@
-# Kurocado Studio Tailwind React Template
+# Kurocado Studio Product Starter Kit
 
-[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Kurocado-Studio/styleguide-react-template)
+[![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Kurocado-Studio/product-starter-kit/tree/main)
 
 This template is already configured with the
 [engineering styleguide](https://kurocado-studio.github.io/styleguide) & is designed to help you go
@@ -15,7 +15,7 @@ Before setting up the project, ensure you have the following tools installed:
 
 ## Quick Start by deploying to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FKurocado-Studio%2Fstyleguide-react-template&project-name=react-template&repository-name=react-template)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Kurocado-Studio/product-starter-kit/tree/main&project-name=product-starter-react-template&repository-name=product-starter-react-template&branch=main)
 
 ## Have a JetBrains IDE?
 

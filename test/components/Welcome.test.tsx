@@ -32,7 +32,7 @@ describe('Welcome component', () => {
 
     expect(linkElement).toHaveAttribute(
       'href',
-      'https://github.com/Kurocado-Studio/styleguide-react-template',
+      'https://github.com/Kurocado-Studio/product-starter-kit',
     );
   });
 });
