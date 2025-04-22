@@ -53,7 +53,8 @@ export function Welcome(): React.ReactNode {
               href='https://github.com/Kurocado-Studio/product-starter-kit'
               className='text-sm/6 font-semibold text-gray-900'
             >
-              View Product Starter Kit repository on GitHub<span aria-hidden='true'>→</span>
+              View Product Starter Kit repository on GitHub
+              <span aria-hidden='true'>→</span>
             </a>
           </Card.Footer>
         </Card>
