@@ -18,7 +18,7 @@ export function Welcome(): React.ReactNode {
         <Card>
           <Card.Header>
             <h1 className='text-balance text-3xl font-semibold tracking-tight'>
-              Product Starter Kit
+              Kurocado Studio Product Starter Kit
             </h1>
           </Card.Header>
           <Card.Body>
