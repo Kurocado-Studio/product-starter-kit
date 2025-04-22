@@ -1,4 +1,5 @@
-import { ThemeProvider } from '@kurocado-studio/ui';
+import { type Theme, ThemeProvider } from '@kurocado-studio/ui/react';
+import '@kurocado-studio/ui/typography.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
@@ -11,7 +12,8 @@ const root = ReactDOM.createRoot(rootElement);
 
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={themeTokens}>
+    {/* keys $themes and $metadata from Token Studio triggers type errors*/}
+    <ThemeProvider theme={themeTokens as unknown as Theme}>
       <Welcome />
     </ThemeProvider>
   </React.StrictMode>,
