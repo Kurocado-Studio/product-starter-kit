@@ -1,3 +1,4 @@
+/* eslint import/no-default-export: 0 */
 import type { StorybookConfig } from '@storybook/react-vite';
 
 const config: StorybookConfig = {
@@ -15,4 +16,5 @@ const config: StorybookConfig = {
     "options": {}
   }
 };
+
 export default config;

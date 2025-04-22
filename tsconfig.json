@@ -14,7 +14,9 @@
   },
   "include": [
     "src",
-    "setup.remix.ts",
+    "setup.web.ts",
+    ".storybook/main.ts",
+    ".storybook/preview.ts",
     "tailwind.config.ts",
     "test",
     "vite.config.ts",
