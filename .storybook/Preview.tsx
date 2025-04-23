@@ -2,6 +2,7 @@
 /* eslint import/no-default-export: 0 */
 import { type Theme, ThemeProvider } from '@kurocado-studio/ui/react';
 import type { Preview } from '@storybook/react';
+import { get } from 'lodash-es';
 import React, { useEffect } from 'react';
 
 import '../src/tailwind.css';
@@ -23,9 +24,9 @@ const preview: Preview = {
 };
 
 export const decorators = [
-  (Story, context): Element => {
+  (Story: React.FC<unknown>, context: Record<string, unknown>): Element => {
     function Decorator(): Element {
-      const selectedTheme = context.globals.theme === LIGHT_THEME;
+      const selectedTheme = get(context, ['globals', 'theme']) === LIGHT_THEME;
 
       useEffect(() => {
         document.documentElement.classList.toggle('dark', !selectedTheme);
