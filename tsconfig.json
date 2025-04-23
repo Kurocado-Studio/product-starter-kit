@@ -7,16 +7,19 @@
   "compilerOptions": {
     "types": ["@types/react", "vitest/globals", "@testing-library/jest-dom"],
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "skipLibCheck": true,
+    "moduleResolution": "bundler",
     "rootDir": ".",
     "baseUrl": ".",
     "jsx": "react"
   },
   "include": [
     "src",
-    "setup.web.ts",
+    "stories",
+    ".storybook/Preview.tsx",
     ".storybook/main.ts",
-    ".storybook/preview.ts",
+    "setup.web.ts",
     "tailwind.config.ts",
     "test",
     "vite.config.ts",

@@ -18,8 +18,8 @@ Ideal for rapid prototyping or scaling new products with solid foundations.
 ## Features
 
 - **Design System Pipeline**  
-  Figma → Token Studio → Tailwind → React using CSS variables  
-  _[Link to this feature]_
+  Figma → Token Studio → Tailwind → React using CSS variables, see the
+  [Design System on GitHub](https://github.com/Kurocado-Studio/design-system)
 
 - **Engineering Styleguide installed**
 
