@@ -10,12 +10,14 @@ describe('Welcome component', () => {
 
   test('renders welcome component properly', () => {
     expect(
-      screen.getByText('Kurocado Studio React 19 starter template'),
+      screen.getByText('Kurocado Studio Product Starter Kit'),
     ).toBeInTheDocument();
   });
 
-  test('renders a tag pointing to the YouTrack documentation', () => {
-    const linkElement = screen.getByRole('link', { name: 'Learn more' });
+  test('renders a tag pointing to the case study', () => {
+    const linkElement = screen.getByRole('link', {
+      name: 'Read the Case Study',
+    });
 
     expect(linkElement).toBeInTheDocument();
 
@@ -25,8 +27,18 @@ describe('Welcome component', () => {
     );
   });
 
+  test('renders a button to change the border radius of the Card component', () => {
+    const buttonElement = screen.getByRole('button', {
+      name: 'Toggle Border Radius',
+    });
+
+    expect(buttonElement).toBeInTheDocument();
+  });
+
   test('renders a tag pointing to the GitHub repository', () => {
-    const linkElement = screen.getByRole('link', { name: 'View on GitHub' });
+    const linkElement = screen.getByRole('link', {
+      name: 'View Product Starter Kit repository on GitHub',
+    });
 
     expect(linkElement).toBeInTheDocument();
 

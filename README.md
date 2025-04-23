@@ -3,9 +3,9 @@
 [![Open in CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/Kurocado-Studio/product-starter-kit/tree/main)
 
 This template is already configured with the
-[engineering styleguide](https://kurocado-studio.github.io/styleguide) & is designed to help you go
-from "0 to Hello World" in five minutes or less—delivering both speed and quality without
-compromise.
+[engineering styleguide](https://kurocado-studio.github.io/platform/styleguide.html) & is designed
+to help you go from "0 to Hello World" in five minutes or less—delivering both speed and quality
+without compromise.
 
 ### Prerequisites
 
@@ -19,7 +19,7 @@ Before setting up the project, ensure you have the following tools installed:
 
 ## Have a JetBrains IDE?
 
-Use the [Documentation](https://kurocado-studio.github.io/dev-ops/document.html) pipeline via
+Use the [Documentation](https://kurocado-studio.github.io/platform/document.html) pipeline via
 [GitHub Pages](https://pages.github.com) using
 [Writerside Jetbrains Plugin](https://plugins.jetbrains.com/plugin/20158-writerside)
 
@@ -50,14 +50,5 @@ Use the [Documentation](https://kurocado-studio.github.io/dev-ops/document.html)
         instance_id: dcs
   ```
 
-- This will enable the [Documentation](https://kurocado-studio.github.io/dev-ops/document.html)
+- This will enable the [Documentation](https://kurocado-studio.github.io/platform/document.html)
   pipeline
-
-## What's next?
-
-- Need a back-end template? See the
-  [NestJS template](https://github.com/Kurocado-Studio/styleguide-nests-template)
-- Keep an eye out on
-  [@kurocado-studio/auth-zero](https://kurocado-studio.github.io/iam/auth0-by-okta.html), for more
-  information, see [the Identity and Access Management page](https://kurocado-studio.github.io/iam).
-  It will integrate your app in five minutes or less with [Auth0 by Okta](https://auth0.com/)
