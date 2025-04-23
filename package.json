@@ -8,7 +8,7 @@
     "build": "vite build",
     "commitlint": "pnpm exec commitlint --edit .git/COMMIT_EDITMSG",
     "clean": "rm -rf node_modules pnpm.lock dist",
-    "dev": "vite && pnpm run storybook",
+    "dev": "vite",
     "eslint-check": "eslint --max-warnings=0 . --debug",
     "eslint-fix": "eslint --max-warnings=0 . --fix --no-warn-ignored",
     "lint": "eslint --max-warnings=0 . --no-warn-ignored",
